@@ -1,0 +1,120 @@
+/* Only for this theme */
+.main-slider{
+    .slick-track{
+        .slick-slide{
+            img{
+                height: 380px;
+                object-fit: cover;
+            }
+        }   
+    }
+}
+
+.thumbnail-slider{
+    .slick-track{
+        .slick-slide{
+            img{
+                height: 100px;
+                object-fit: cover;
+            }
+        }   
+    }   
+}
+
+.related{
+    .products{
+        li{
+            background-color: transparent !important;
+        }
+    }
+}
+
+.total_cart_sidebar{
+    .elementor-menu-cart__toggle_button{
+        border: none !important;
+    }
+}
+
+
+.jkit-post-meta-bottom{
+    display: none !important;
+}
+
+.jkit-postblock-content{
+	background: #fff;
+	padding: 10px 20px !important;
+	margin-bottom: 20px
+}
+
+.loop_card_custom{
+	position: relative;
+}
+
+.box-title-container{
+	position: absolute;
+	background: #fff;
+	padding: 20px;
+	bottom: 20px;
+	left: 20px;
+	width: auto;
+}
+
+.box-title-container .elementor-heading-title{
+	font-size: 18px;
+}
+
+.box-title-container .elementor-widget-text-editor{
+	color: #000;
+}
+
+.box-title-container .elementor-widget-text-editor p{
+	margin-bottom: 0px;
+}
+
+.img_services_custom img{
+	height: 200px;
+	object-fit: cover;
+}
+
+.category_box_post_loop{
+    .elementor-post-info__terms-list-item{
+        background-color: var(--e-global-color-primary);
+        color:#fff !important;
+        padding: 5px 15px;
+        font-size: 13px !important;
+    }
+}
+
+.right_element_nav .jkit-search-modal{
+	padding-top: 3px !important;
+}
+
+#sidebar_custom{
+    transition: 0.3s; 
+}
+
+#sidebar_custom.toggle-sidebar {
+    left: 78%; 
+}
+
+#btn_sidebar{
+    cursor: pointer;
+}
+
+#btn_close_sidebar{
+    cursor: pointer;
+}
+
+#contact_fix_btn{
+    right: 0px;
+    top: 50%;
+    .text_tranform{
+        transform: translateX(150px);
+    }
+}
+
+#contact_fix_btn:hover{
+    .text_tranform{
+        transform: translateX(0px);
+    }
+}
