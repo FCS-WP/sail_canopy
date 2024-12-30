@@ -14,3 +14,13 @@ let Main = {
 
 console.log($('.more-link'));
 // Main.init();
+
+document.getElementById('btn_sidebar').addEventListener('click', function() {
+  const sidebar = document.getElementById('sidebar_custom');
+  sidebar.classList.toggle('toggle-sidebar');
+});
+
+document.getElementById('btn_close_sidebar').addEventListener('click', function() {
+  const sidebar = document.getElementById('sidebar_custom');
+  sidebar.classList.toggle('toggle-sidebar');
+});

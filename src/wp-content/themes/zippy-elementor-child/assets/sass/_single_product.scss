@@ -1,0 +1,107 @@
+.custom-contain-single-products{
+ .variations{
+    th{
+        padding: 0px ;
+        padding-bottom: 10px;
+        background-color: transparent !important;
+        label{
+            width: 100%;
+        }
+    }
+    td{
+        padding: 0px;
+        padding-bottom: 10px;
+        background-color: transparent !important;
+    }
+ }   
+ .quantity{
+    .qty{
+        padding: 0.5rem 1rem !important;
+        width: 100px;
+        text-align: left;
+        border: none;
+        border-bottom: 1px solid #ccc;
+    }
+ }
+ .single_add_to_cart_button{
+    font-size: 1.14286rem;
+    font-weight: 600;
+    height: 45px;
+    background-color: #2d2d2d;
+    border-color: #2d2d2d;
+    color: #fff !important;
+    min-width: 200px;
+ }
+ .product_meta{
+    display: flex;
+    flex-wrap: wrap;
+    .detail-container{
+        width: 100%;
+        span{
+            font-size: 15px;
+            color: #777;
+            a{
+                color: #777;
+            }
+        }
+        .detail-label{
+            width: 100px;
+            display: inline-block;
+        }
+    }
+ }
+ .elementor-share-buttons--view-icon{
+    .elementor-grid{
+        .elementor-grid-item{
+            .elementor-share-btn{
+                border: none;
+                justify-content: flex-start;
+                svg{
+                    color: #777;
+                    width: 20px !important;
+                }
+            }
+        }
+    }
+ }
+}
+
+.custom-contain-single-products-tab{
+    .wc-tabs{
+        display: flex;
+        justify-content: center;
+        li{
+            background-color: transparent !important;
+            border: none !important;
+            border-radius: 0 !important;
+            a{
+                text-transform: uppercase;
+            }
+        }
+        .active{
+            border-top: 2px solid #2d2d2d !important;
+        }
+    }
+    .woocommerce-Tabs-panel{
+        border-top: none !important;
+    }
+}
+
+.relate-product-custom{
+    .related{
+        h2{
+            color: #515151 !important;
+        }
+    }
+    .woocommerce-loop-product__buttons{
+        
+        a{
+            color: #fff !important;
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px !important;
+        }
+    }
+}
+
+
