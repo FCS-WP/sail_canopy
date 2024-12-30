@@ -113,8 +113,146 @@
     }
 }
 
+@media(max-width: 768px){
+    #contact_fix_btn{
+        right: 0px;
+        top: 50%;
+        display: flex;
+        flex-wrap: nowrap;
+        .text_tranform{
+            transform: translateX(100%) !important;
+        }
+        .e-child:nth-child(2){
+            width: 65px !important;
+        }
+    }
+    .list_home_link{
+        padding: 20px 0;
+        ul{
+            flex-wrap: wrap;
+            li{
+                width: 50%;
+                margin: 0px !important;
+                justify-content: center !important;
+            }
+        }
+    }
+}
+
 #contact_fix_btn:hover{
     .text_tranform{
         transform: translateX(0px);
     }
+}
+
+.white-text{
+    color: #fff;
+}
+
+.elementor-icon-box-description a{
+	color: var(--e-global-color-primary);
+}
+
+.current_page_item a:after, .e--pointer-underline .elementor-item:after{
+	height: 2px !important;
+}
+
+.form_style_basic_custom{
+    input{
+        padding: 10px !important;
+    }
+}
+
+.archive{
+    .woocommerce-result-count{
+        margin-bottom: 10px !important;
+    }
+    .woocommerce-loop-product__title{
+        margin-bottom: 20px !important;
+    }
+}
+
+.archive .woocommerce ul.products li.product .post_data,.archive .woocommerce-page ul.products li.product .post_data{
+    overflow: visible;
+}
+
+@media (min-width: 1024px){
+    .archive{
+        .post_featured{
+            img{
+                height: 333px !important;
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+@media (max-width: 1023px){
+    .post_featured{
+        img{
+            height: 150px !important;
+            object-fit: cover;
+        }
+    }
+}
+
+.elementor-location-footer{
+    .elementor-nav-menu--dropdown-none{
+        ul{
+            li {
+                a {
+                    padding-left: 0px;
+                }
+            }
+        }
+    }
+}
+
+.elementor-nav-menu--dropdown{
+    position: absolute;
+    right: 0px;
+    top: 40px;
+    .menu-item-object-page{
+        width: 150px;
+    }
+}
+
+.total_cart_sidebar{
+    .quantity{
+        color: #797c7f;
+    }
+    .elementor-menu-cart__product-name{
+        font-size: 20px;
+        font-weight: bolder;
+    }
+}
+
+.woocommerce-breadcrumb{
+    .woocommerce-breadcrumb-item{
+        a{
+            color: #fff !important;
+        }
+    }
+}
+
+.woocommerce #btn-buy, .tinv-wishlist .tinvwl_added_to_wishlist.tinv-modal button, .woocommerce #respond input#submit, .woocommerce .button, .woocommerce-page .button, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce input[type="button"], .woocommerce-page input[type="button"], .woocommerce input[type="submit"], .woocommerce-page input[type="submit"], .woocommerce ul.products li.product .button, .woocommerce div.product form.cart .button, .woocommerce #review_form #respond p.form-submit input[type="submit"], .woocommerce-page #review_form #respond p.form-submit input[type="submit"], .woocommerce table.my_account_orders .order-actions .button, .woocommerce table.cart td.actions .button, #add_payment_method .wc-proceed-to-checkout a.checkout-button, .woocommerce-cart .wc-proceed-to-checkout a.checkout-button, .woocommerce-checkout .wc-proceed-to-checkout a.checkout-button, .yith-woocompare-widget a.clear-all{
+    background-color: var(--e-global-color-primary) !important;
+    border-color: var(--e-global-color-primary) !important;
+}
+
+.woocommerce div.product p.price span.amount, .woocommerce div.product span.price span.amount{
+    color: var(--e-global-color-primary) !important;   
+}
+
+form button:not(.components-button), input[type="button"], input[type="reset"], input[type="submit"], .theme_button, .post_item .more-link, .wp-block-button__link, .sc_button:not(.sc_button_simple), .sc_form button, .sc_portfolio_preview_show .post_readmore{
+    background-color: var(--e-global-color-primary) !important;
+    border-color: var(--e-global-color-primary) !important;   
+}
+
+.elementor-search-form__submit{
+    padding: 10px !important;
+}
+
+.elementor-button-icon-qty{
+    background-color: var(--e-global-color-primary) !important;   
 }
