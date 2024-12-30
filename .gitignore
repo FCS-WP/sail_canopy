@@ -31,3 +31,5 @@ src/wp-content/themes/twentytwentythree
 
 # Ignore docker file
 .env
+
+yarn.lock
